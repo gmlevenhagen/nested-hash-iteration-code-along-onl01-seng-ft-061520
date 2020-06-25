@@ -15,7 +15,7 @@ require 'pry'
   # }
 
 def remove_strawberry(contacts)
-contact ={
+contacts ={
   "Jon Snow" => {
       name: "Jon",
       email: "jon_snow@thewall.we",
@@ -24,8 +24,10 @@ contact ={
   "Freddy Mercury" => {
        name: "Freddy",
        email: "freddy@mercury.com",
-       favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+       favorite_ice_cream_flavors: [ "cookie dough", "mint chip"]
     }
   }
+contacts=["Freddy Mercury"][favorite_ice_cream_flavors:]
+
 
 end
